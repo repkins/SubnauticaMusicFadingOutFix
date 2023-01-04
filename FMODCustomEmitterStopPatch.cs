@@ -21,7 +21,7 @@ namespace MusicFadingOut
         {
             if (__state != __instance.playing)
             {
-                if (__instance.asset?.name?.EndsWith("music") ?? false)
+                if (__instance.asset && __instance.asset.name.EndsWith("music"))
                 {
                     __instance.StartCoroutine(FadeOut(__instance));
                 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MusicFadingOut
 {
-    [BepInPlugin("subnautica.repkins.music-fading-out-fix", "Music Fading Out Fix", "1.0.2.0")]
+    [BepInPlugin("subnautica.repkins.music-fading-out-fix", "Music Fading Out Fix", "1.0.3.0")]
     public class Plugin : BaseUnityPlugin
     {
         public void Awake()
